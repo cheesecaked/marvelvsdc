@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+body {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+.dc {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 150px;
+    width: 50%;
+    background-color: darkgreen;
+    box-shadow: 0px 1px 100px 1000px lightgreen inset;
+}
+.marvel {
+    width: 50%;
+    border: 3px solid;
+}
+.logo {
+    position: absolute;
+    margin-bottom: 48%;
+    background-size: 100%;
+    flex-direction: row-reverse;
+    align-self: center;
+    background-image: url(https://pentagram-production.imgix.net/3b6abdde-9ffb-4439-a571-6e96ac5ba8e7/emo_dcentertainment_02.jpg?rect=%2C%2C%2C&w=640&fm=jpg&q=70&auto=format);
+    width: 7%;
+    height: 12.4%;
+}
+.bigc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    flex-direction: row-reverse;
+    align-self: center;
+    border: 15px solid;
+    height: 50%;
+    width: 25%;
+    background-color: rgb(105, 255, 105);
+    border-radius: 50%;
+    box-shadow: 1px 3px 20px 15px black inset;
+}
+p {
+    align-self: flex-start;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.midc {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    border-radius: 50%;
+    border: 15px solid;
+    background-color: black;
+    height: 87%;
+    width: 87%;
+    box-shadow: 0px 1px 20px 5px rgb(105, 255, 105) inset;
+}
+.mainc {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    border: 50px solid;
+    border-radius: 50%;
+    height: 100%;
+    width: 50%;
+    z-index: 0;
+    box-shadow: 0px 1px 20px 5px rgb(107, 255, 107);
+}
+.inset {
+    border: 3px solid hidden;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    box-shadow:0px 1px 10px 5px rgb(105, 255, 105) inset;
+}
+.topbot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    padding: 12%;
+    z-index: 1;
+    width: 25%;
+    border-top: 50px solid white;
+    border-bottom: 50px solid white;
+}
