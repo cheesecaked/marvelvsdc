@@ -20,7 +20,7 @@
     width: 550px;
     height: 550px;
     animation-name: big;
-    animation-duration: 5s;
+    animation-duration: 6s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     position: relative;
@@ -28,18 +28,18 @@
     top: 180px;
     border-color: rgb(55, 64, 72);
 }
-/* @keyframes big{ 
+@keyframes big{ 
     from { transform: rotate(0deg) }
     to { transform: rotate(360deg) }
-} */
+}
 .big3{
     position: absolute;
     box-shadow: 0 0 10px 5px rgb(17, 236, 236);
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 380px;
-    height: 380px;
+    width: 400px;
+    height: 400px;
     background-color: white;
     border-style: solid;
     border-width: 25px;
@@ -52,8 +52,8 @@
     justify-content: center;
     align-items: center;
     box-shadow: 0 0 50px 20px rgb(17, 212, 212) ;
-    width: 250px;
-    height: 250px;
+    width: 299px;
+    height: 299px;
     background-color: rgb(17, 212, 212);
     border-style: solid;
     border-width: 5px;
@@ -82,7 +82,7 @@
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     border-color: rgb(55, 64, 72);
-    border-radius: 5px;
+    border-radius: 10px;
 }
 /* @keyframes a{
     from { transform: rotate(0deg) }
@@ -103,7 +103,7 @@
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     border-color: rgb(55, 64, 72);
-    border-radius: 5px;
+    border-radius: 10px;
 }
 /* @keyframes b{
     from { transform: rotate(0deg) }
@@ -124,7 +124,7 @@
     animation-iteration-count: infinite;
     transform: rotate(45deg);
     border-color: rgb(55, 64, 72);
-    border-radius: 5px;
+    border-radius: 10px;
 }
 /* @keyframes c{
     from { transform: rotate(0deg) }
@@ -145,7 +145,7 @@
     animation-iteration-count: infinite;
     transform: rotate(87deg);
     border-color: rgb(55, 64, 72);
-    border-radius: 5px;
+    border-radius: 10px;
 }
 /* @keyframes d{
     from { transform: rotate(0deg) }
@@ -339,7 +339,7 @@ body {
  color: white;
   position: absolute;
   font-size: 190px;
-  left: 1000px;
+  left: 1005px;
   top:275px;
   
 }
