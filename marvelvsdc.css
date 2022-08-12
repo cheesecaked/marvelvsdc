@@ -214,8 +214,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 570px;
-  height: 570px;
+  width: 500%;
+  height: 500%;
   border-radius: 50%;
   border: 10px solid black;
   position: absolute;
